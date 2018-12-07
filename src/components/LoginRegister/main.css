@@ -1,0 +1,166 @@
+body{
+    height: 2000px;
+}
+
+.Login-logo{
+    margin-left: 393px;
+    margin-top : 43px;
+}
+.Login-main{
+    margin-top      : 17px;
+    height          : 462px;
+    width           : 100%;
+    background-image: url("/img/banana-1.jpg");
+    background-size : 100%;
+    position        : relative;
+}
+.Login-login{
+    width     : 402px;
+    height    : 407px;
+    background: #fff;
+    position  : absolute;
+    right     : 207px;
+    top       : 28px;
+}
+.Login-account{
+    line-height: 79px;
+    text-align : center;
+}
+.Login-account-zh,.Login-account-sm{
+    display  : inline-block;
+    font-size: 22px;
+}
+.Login-account-zh>a,.Login-account-sm>a{
+    color          : #6a6a6a;
+    text-decoration: none;
+}
+.Login-account-zh>a:hover,.Login-account-sm>a:hover {
+    color: red
+}
+.Login-account-zh{
+    padding-right: 24px;
+}
+.Login-account-sm{
+    padding-left: 24px;
+}
+.info{
+    margin-left: 30px;
+}
+.input{
+    padding-bottom: 16px;
+    border        : 0
+}
+.input>input{
+    width : 342px;
+    height: 52px;
+}
+.submit{
+    margin-left: 30px;
+    width      : 342px;
+    height     : 52px;
+    background : #ff6600;
+    border     : 0;
+    color      : white
+}
+.forget{
+    font-size  : 16px;
+    color      : #fc6701;
+    float      : left;
+    margin-left: 30px;
+}
+.short{
+    margin-top: 9px;
+    height    : 17px;
+}
+.sign{
+    float: right;
+}
+.away{
+    font-size   : 12px;
+    color       : #a6a6a6;
+    margin-right: 30px;
+}
+.forget-left {
+    margin-right: 0px;
+}
+.way{
+    margin-top: 35px;
+    
+}
+.icon>li{
+    float: left;
+}
+.icon-i1{
+    margin-left: 98px;
+}
+.icon-i2{
+    margin-left: 58px;
+}
+.icon-i3{
+    margin-left: 50px;
+}
+.footer-zd{
+    margin-top: 85px;
+}
+.footer-zd>img{
+    width : 100%;
+    height: 100%;
+}
+.footer-bottom{
+    width        : 1068px;
+    text-align   : center;
+    padding-top  : 32px;
+    margin-left  : 180px;
+    border-bottom: 1px solid #9a9a9a;
+}
+.footer-middle{
+    width        : 1068px;
+    padding-top  : 34px;
+    margin-bottom: 42px;
+}
+.left{
+    float      : left;
+    margin-left: 95px;
+}
+.title{
+    font-size: 14px;
+    color    : #121212;
+}
+.left>li{
+    font-size  : 12px;
+    line-height: 38px;
+}
+.left>li>a{
+    color: #b3b3b3;
+}
+.footer-dit{
+    margin-left: 95px;
+}
+.you>li{
+    float: left
+}
+.you>li>a{
+    color: #353535;
+}
+.footer-mall{
+    margin-left: 316px;
+}
+
+.agr-title{
+    text-align: center;
+}
+.bbk>h3{
+    font-size : 15px;
+    margin-top: 20px;
+
+}
+.bbk>h5{
+    font-size : 12px;
+    margin-top: 20px;
+
+}
+.bbk>p{
+    font-size  : 12px;
+    margin-top : 20px;
+    line-height: 20px;
+}

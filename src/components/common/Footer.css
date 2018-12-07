@@ -1,0 +1,83 @@
+/*尾部服务*/
+.footer{
+    margin-top: 60px;
+    height: 400px;
+    width: 100%;
+    float: left;
+    background-color: #fff;
+}
+.footer>.inner{
+    width: 1075px;
+    height: 100%;
+    margin:0 auto;
+}
+.footer>.inner>.service{
+    padding-left:40px;
+    height: 129px;
+    background-color: #fff;
+    border-bottom: 1px solid #9a9a9a;
+}
+.service>.item{
+    padding-top: 30px;
+
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.service>.item>img{
+    float: left;
+    padding-right: 16px;
+}
+.service>.item>h3{
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 28px;
+    color:#000;
+}
+.service>.item>span{
+    font-size: 14px;
+    color:#909090
+}
+/*尾部链接*/
+.footer-link{
+    padding-top: 26px;
+    overflow: hidden;
+    padding-left: 12px;
+}
+.footer-link>dl{
+    float: left;
+    width: 175px;
+    height: 200px;
+}
+.footer-link>dl>dt{
+    color:#000;
+    line-height: 30px;
+    font-size: 16px;
+}
+.footer-link>dl>dd>a{
+    line-height: 23px;
+    font-size: 14px;
+    color:#909090
+}
+.footer-link>dl>dd>a:hover{
+    color:#f57c26
+}
+/*尾部版权信息*/
+.footer-copy>p{
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+}
+.footer-copy>p>a,.footer-copy>p>span{
+    padding:0 8px;
+    color:#333333
+}
+.footer-copy>p>a:hover{
+    color:#f57c26
+}
+.footer-copy>h4{
+    text-align: center;
+    font-size: 12px;
+    color:#363535;
+    line-height: 25px;
+}

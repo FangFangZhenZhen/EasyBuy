@@ -1,0 +1,96 @@
+.appraise>div{
+    float: left;
+}
+.appraise div.shop{
+    width: 206px;
+    height: 145px;
+    margin: 0 70px 0 140px;
+    border: 1px solid #bdb59b;
+}
+.appraise div.shop p{
+    height: 46px;
+    background-color: #fafafa;
+    padding:18px 0 0 22px;
+    color: #051115;
+    border-bottom: 2px solid #c1baa2;
+}
+.appraise div.shop  ul li{
+    float: left;
+    color: #7e8b99;
+}
+.appraise div.shop  ul{
+    margin: 20px 0 0 40px;
+}
+.appraise div.shop  ul li span{
+    display: block;
+    margin:7px 23px 8px 0;
+
+}
+.appraise div.shop div.button{
+    margin-left: 23px;
+}
+.margin_rigth_4px{
+    margin-right: 4px;
+}
+.appraise div.shop div.button button{
+    color: #5a5a5a;
+    width: 69px;
+    height: 20px;
+    font-size: 12px;
+    border: 1px solid #9d9d9d;
+}
+.appraise div.introduce{
+    width: 729px;
+    margin-top:12px;
+    border: 1px solid #7b7769;
+}
+.appraise div.introduce div.introduce_pro{
+    border-bottom: 1px solid #c1baa2;
+    line-height: 46px;
+}
+.appraise div.introduce div.introduce_pro p{
+    width: 83px;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+}
+.appraise div.introduce div.cunhui_mom{
+    padding-bottom: 26px;
+    border-bottom: 2px solid #c1baa2;
+}
+.appraise div.introduce div.cunhui_mom span.mom_logo{
+    display: inline-block;
+    margin: 20px 0 0 23px;
+    float: left;
+}
+.appraise div.introduce div.cunhui_mom div.logo_contain{
+    float: left;
+    color: #494949;
+    font-size: 10px;
+    line-height: 26px;
+    margin:23px 0 0 20px;
+}
+.appraise div.introduce div.brand_name{
+    margin-left: 49px;
+    font-size: 12px;
+    color: #454a4c;
+}
+.appraise div.introduce div.brand_name h1{
+    margin-top:43px;
+
+}
+.appraise div.introduce div.brand_name h3{
+    margin:55px 0 49px 0;
+}
+.appraise div.introduce div.brand_name ul li{
+    float: left;
+    font-size:12px;
+    margin-right:70px;
+
+}
+.appraise div.introduce div.brand_name ul li.margin_right_0px{
+    margin-right: 0px;
+}
+.appraise div.introduce div.brand_name ul li p{
+    margin: 25px 0;
+}

@@ -1,0 +1,287 @@
+
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+
+}
+.border_1px_red{
+    border: 1px solid red;
+}
+.ProDetails div.Pro-left div.small-pic img , .ProDetails div.Pro-left ul.pic-list img, .Details .Pro_type img{
+    width: 100%;
+    height: 100%;
+}
+.ProDetails{
+    width: 1010px;
+    height: 520px;
+    margin: 0 auto;
+    border-right: 1px solid #ebebea;
+}
+.Pro-left{
+    width: 375PX;
+    height: 446px;
+    margin:15px 0 0  31px;
+    float: left;
+    position: relative;
+}
+.Pro-left .small-pic{
+    width: 375px;
+    height: 375px;
+    position: relative;
+}
+.pic-list li{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right:18px;
+    margin-top: 13px;
+}
+.pic-list li.no-margin-right{
+    margin-right:0
+}
+.Pro-left div.big_glass{
+    position: absolute;
+    top:0;
+    left:399px;
+    width: 375px;
+    height: 375px;
+    background-color: blue;
+    overflow: hidden;
+    z-index: 9999;
+    display: none;
+}
+.Pro-left div.small-pic span.small_glass{
+    opacity: 0.5;
+    background-color: blue;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+.Pro-left div.big_glass img.big_pic{
+    position: absolute
+}
+
+/*商品内容详情 */
+.Details{
+    width: 544px;
+    height: 555px;
+    margin:15px 0 0 24px;
+    float: left;
+}
+.Details .Detail-title h1{
+    font-size: 18px;
+    line-height: 25px;
+    color: #290001;
+    margin-bottom: 32px;
+}
+.Details .Pro_price{
+    height: 117px;
+    background-color: #eceaeb;
+}
+.Details .Pro_price p {
+    vertical-align: center;
+}
+.Details .Pro_price span.coupon{
+    display: block;
+    width: 76px;
+    height: 21px;
+    margin: 12px 0 0 15px;
+    float: left;
+}
+
+.Details .Pro_price p  i.common-use{
+    display: block;
+    margin: 12px 0 0 9px;
+    line-height: 21px;
+    font-size: 13px;
+    float: left;
+    color: #838f9c;
+}
+.Details .Pro_price div.Price #Price{
+  margin:20px 0 20px 15px;
+
+}
+.Details .Pro_price div.Price #Price span{
+    color: #a5a5bb;
+    margin-right: 69px;
+    font-size: 13px;
+}
+.Details .Pro_price div.Price #Price i{
+    color: #121404;
+    display: inline-block;
+    line-height: 17px;
+    font-size: 10px;
+    margin-top: -3px;
+    text-decoration: line-through;
+}
+.Details .Pro_price div.Price .promotion_price span.promotion{
+    color: #a5a5bb;
+    margin-right: 56px;
+    font-size: 13px;
+    margin-left: 15px;
+}
+.Details .Pro_price div.Price .promotion_price span._price {
+    color: #f5a75d;
+}
+.Details .Pro_price div.Price .promotion_price span._price i{
+    font-size: 10px;
+}
+.Details .Pro_price div.Price {
+    position: relative;
+}
+.Details .Pro_price div.Price p.zaomai{
+    width: 81px;
+    height: 16px;
+    position: absolute;
+    top: 36px;
+    left: 180px;
+}
+
+
+.Details .Pro_freight {
+    height: 41px;
+    font-size: 12px;
+    border-bottom:1px dashed #d3d3d3;
+}
+.Details .Pro_freight .freight{
+    margin: 0 70px 0 15px;
+    line-height: 41px;
+    color: #a9a9be;
+}
+.Details .Pro_freight .address{
+    color:#7d7f7f;
+}
+.Details .Pro_freight .address i{
+    margin: 0 7px;
+}
+.Details .Pro_freight .express{
+    margin-left:22px;
+}
+
+.Details .Pro_sales{
+    height: 42px;
+    border-bottom:1px dashed #d3d3d3;
+}
+.Details .Pro_sales span{
+    line-height: 42px;
+    color:#7d7f7f;
+    font-size: 12px;
+}
+.Details .Pro_sales i{
+    color: #f7931e;
+    font-weight: bold;
+}
+.Details .Pro_sales span.Mounth-count{
+    margin:0 208px 0 80px;
+}
+
+.Details .Pro_type{
+    height: 201px;
+    /* background-color: yellow; */
+    margin-bottom: 11px;
+}
+.Details .Pro_type ul li.Pro_size{
+    margin: 16px 0;
+    line-height: 32px;
+
+}
+.Details .Pro_type ul li b{
+    margin-left:15px;
+    display: inline-block;
+    width: 52px;
+    color: #7d7f7f;
+    font-size: 12px;
+}
+.Details .Pro_type ul li.Pro_size span{
+    display: inline-block;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    margin:0 12px;
+    text-align: center;
+}
+.Details .Pro_type ul li.Pro_color {
+  line-height: 30px;
+    position: relative;
+    margin-bottom: 24px;
+}
+.Details .Pro_type ul li.Pro_color span{
+    display:block;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    left: 68px;
+    width: 24px;
+    height: 24px;
+    margin:0 12px;
+}
+.Details .Pro_type ul li.Pro_number{
+    line-height: 29px;
+    position: relative;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.Details .Pro_type ul li.Pro_number input{
+    width: 42px;
+    height: 25px;
+    border: none;
+    text-align: center;
+    border:1px solid #141f23;
+    margin: 0 8px 0 10px;
+}
+.Details .Pro_type ul li.Pro_number span.increase ,.Details .Pro_type ul li.Pro_number span.reduce{
+    display: inline-block;
+    text-align: center;
+    line-height: 17px;
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+    color: #898787;
+    border: 1px solid #141f23;
+    font-size: 8px;
+    margin-right:8px;
+}
+.Details .Pro_type ul li.Pro_number >i{
+    margin-right:17px;
+}
+.Details .Pro_type ul li.Pro_button button{
+    width: 183px;
+    height: 40px;
+    border: 1px solid #f89a2d;
+    cursor: pointer;
+}
+.Details .Pro_type ul li.Pro_button .Pro_buy{
+    /* margin:0 14px 0 76px;
+    color: #ff8900;
+    background-color: #ffeded; */
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    color:#fff;
+    width: 180px;
+    height: 40px;
+    background-color: #f7931e;
+    margin-right: 10px;
+}
+.Details .Pro_type ul li.Pro_button button.Pro_car{
+    color: #fff;
+    background-color: #f7931e;
+}
+.promise{
+    height: 13px;
+    margin-bottom: 56px;
+}
+.promise ul{
+    float: left;
+    margin-left: -520px;
+}
+.promise ul li{
+    float: left;
+    margin-right:28px;
+    font-size: 12px;
+    font-weight: bold;
+}

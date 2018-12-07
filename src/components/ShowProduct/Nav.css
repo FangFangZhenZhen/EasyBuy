@@ -1,0 +1,170 @@
+.nav-box{
+    width : 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.nav{
+    width : 1188px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.breadcrumb{
+    margin-left     : 20px;
+    margin-bottom   : 10px;
+    color           : #333!important;
+    background-color: #fff;
+    font-size       : 500;
+}
+
+.nav-classify{
+    width : 100%;
+    height: auto;
+    border: 1px solid #a0a0a0;
+}
+
+.classify-pinpai,.classify-fenlei{
+    overflow: hidden;
+}
+
+.classify-pinpai{
+    border-bottom: 1px solid #a0a0a0;
+}
+.classify-fenlei{
+    border-bottom: 8px solid #a0a0a0;
+}
+
+.maxheight{
+    max-height: 120px;
+}
+.maxheight2{
+    max-height: 62px;
+}
+
+/* classify-pinpai  */
+.left-title{
+    width           : 118px;
+    height          : 100%;
+    background-color: #efefef;
+    padding-top     : 14px;
+    padding-left    : 14px;
+    color           : #afa49e;
+    float           : left;
+}
+.left-title-pp{
+    min-height: 119px;
+}
+.left-title p{
+    font-size: 13px;
+}
+
+.pp-mid-title{
+    width      : 841px;
+    min-height : 116px;
+    float      : left;
+    margin-top : 6px;
+    margin-left: 17px;
+}
+
+.pp-mid-title ul{
+    width : 100%;
+    height: 100%;
+}
+.pp-mid-title ul li{
+    width : 105px;
+    height: 53px;
+    border: 1px solid #a0a0a0;
+    float : left;
+    margin: 0 auto
+}
+
+.pp-mid-title ul li a img{
+    width : 103px;
+    height: 51px;
+}
+
+.right-title{
+    float     : right;
+    margin-top: 10px;
+
+}
+
+.right-title input{
+    width           : 46px;
+    height          : 16px;
+    background-color: #fff;
+    font-size       : 12px;
+    border          : 1px solid #afa5a3;
+    margin-right    : 12px;
+    cursor          : pointer;
+}
+.right-title div{
+    font-size   : 12px;
+    display     : inline-block;
+    margin-right: 5px;
+    cursor      : pointer;
+}
+
+/*分类*/
+.classify-fenlei{
+    clear     : both;
+    width     : 100%;
+    min-height: 30px;
+}
+.fl-mid-title{
+    width      : 841px;
+    min-height : 30px;
+    margin-left: 30px;
+}
+.fl-mid-title ul{
+    width : 100%;
+    height: 100%;
+}
+.fl-mid-title li{
+    width       : 68px;
+    height      : 25px;
+    text-align  : center;
+    float       : left;
+    line-height : 30px;
+    margin-right: 100px;
+}
+.fl-mid-title li a{
+    display  : block;
+    color    : #8d7c74;
+    font-size: 13px;
+}
+.fl-left-title,.fl-mid-title{
+    float: left
+}
+.fl-left-title{
+    min-height: 61px
+}
+.right-title-fl{
+    float     : right;
+    margin-top: 10px;
+}
+
+.right-title-fl div{
+    font-size   : 12px;
+    display     : inline-block;
+    margin-right: 8px;
+    cursor      : pointer;
+}
+
+/* arrow */
+.arrow,.arrow2{
+    font-size   : 8px;
+    margin-right: 10px;
+}
+
+.activeNav{
+    background     : #ff6600;
+    color          : #fff!important;
+    border-radius  : 3px 3px 3px 3px;
+    text-decoration: none;
+}
+
+
+
+
+

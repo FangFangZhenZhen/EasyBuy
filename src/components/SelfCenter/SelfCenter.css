@@ -1,0 +1,596 @@
+/* 最外层样式 */
+.selfuser-out{
+    width: 100%;
+    height: auto;
+    background-color: #f6f6f6;
+}
+/* 主体部分样式 */
+.selfuser{
+    width: 1222px;
+    min-height: 900px;
+    margin: 0 auto;
+}
+
+/*确认登录状态*/
+.checkLoginMsg{
+    font-size: 20px;
+    width: 100%;
+    height:50px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: top;
+}
+.checkLoginMsg>a{
+    padding-bottom:3px;
+    display: inline-block;
+    color:#f68032;
+    font-size: 20px;
+}
+.userul{
+    width: 233px;
+    height: 681px;
+    background-color: #fff;
+    float: left;
+}
+.userul>li{
+    line-height: 65px;
+    text-align: center;
+
+}
+.userul>li>a{
+    font-size: 14px;
+    color:#acacb3;
+    text-decoration: none;
+}
+.seclect{
+    float: left;
+    width: 934px;
+    height: auto;
+    margin-left: 30px;
+    background-color: #fff;
+}
+/* 小导航样式 */
+.nav{
+    width: 1222px;
+    line-height: 38px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 16px;
+}
+/* 变化样式 */
+.self-active{
+    color:orange!important;
+}
+.grey{
+    color: #acacb3!important;
+}
+/* 个人中心样式开始 */
+.mancenter{
+    height: 681px;
+}
+
+/* 用户信息 */
+.centertop{
+    display: flex;
+}
+.centertop>div{
+    flex: 1;
+}
+.centerbtm{
+    display: flex;
+    flex-wrap: wrap;
+}
+.centerbtm>li{
+   flex:0 1 50%;
+}
+.users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.userleft{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    /* background-color:lightseagreen ; */
+}
+.userright{
+    margin-left: 15px;
+    line-height: 36px;
+}
+.userright>h2{
+    font-size: 24px;
+    color: #666d76;
+}
+.userright>p{
+    font-size: 12px;
+    color: #bababa;
+}
+.userright>a{
+    font-size: 12px;
+    color: #fe6b0f;
+}
+/* 账户信息 */
+.account{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.account>.label{
+
+}
+.account .acount-label{
+    font-size: 14px;
+    color: #666d76!important;
+    margin: 20px 0;
+    margin-left: 100px;
+}
+.account button{
+    margin-top: 10px;
+    width: 55px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #f68032;
+    color: #fff;
+    border: 0;
+    margin-left: 100px;
+    outline: none;
+    cursor:pointer;
+}
+
+/* 用户个人操作 */
+.centerbtm>li:nth-of-type(1)>.persondetail>.imglogo{
+    background-color: #ff6709;
+}
+.centerbtm>li>.persondetail>.imglogo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerbtm>li:nth-of-type(2)>.persondetail>.imglogo{
+
+    background-color: #8bc34a;
+
+}
+.centerbtm>li:nth-of-type(3)>.persondetail>.imglogo{
+
+    background-color: #2196f3;
+}
+.centerbtm>li:nth-of-type(4)>.persondetail>.imglogo{
+    background-color: #ffab00;
+}
+.persondetail{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.persondetail>.useraction{
+    margin-left: 22px;
+    line-height: 26px;
+}
+.persondetail>.useraction>p{
+    font-size: 18px;
+    color: #fe6b0f;
+}
+.persondetail>.useraction>a{
+    font-size: 14px;
+    color: #7e7c88;
+}
+
+/* 个人中心页面结束 */
+
+
+/* 收货地址样式开始 */
+.profile{
+    height: auto;
+
+}
+.profile>h2{
+    font-size: 36px;
+    margin-top: 71px;
+    margin-left: 60px;
+    color: #666;
+}
+.defaultpro{
+    width: 338px;
+    height: 223px;
+    border:1px solid #000;
+    margin-left: 60px;
+    margin-top: 63px;
+    color: #666;
+}
+.defaultpro>h4{
+    font-size: 24px;
+    color: #666;
+    margin: 35px 0 20px 35px;
+}
+.defaultpro>p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: 35px;
+}
+.insertpro{
+    width: 338px;
+    height: 223px;
+    border:1px solid #000;
+    /* margin: 63px 183px 0 16px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.insertpro .btn1{
+  font-size: 40px;
+}
+.insertpro .btn2{
+    border: none;
+}
+.insertpro p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #747474;
+}
+.probox{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/* 收货地址样式结束 */
+
+/* 模态框样式开始 */
+.ant-modal-header{
+    color: #2d2d2d!important;
+    font-size: 21px!important;
+    background-color: #ccc!important;
+}
+.ant-modal-footer{
+    background-color: #ccc!important;
+}
+.ant-modal-body{
+    padding: 10px!important;
+    height: 320px;
+}
+.inputmsg1{
+    width: 100%;
+}
+.inputmsg1 input{
+    display: inline-block;
+    width: 48%;
+    height: 45px;
+    border:1px solid #747474;
+    border-radius: 5px;
+    margin: 20px 5px;
+    outline:none;
+}
+.inputmsg2 textarea{
+    width: 100%;
+    height: 80px;
+    border:1px solid #747474;
+    border-radius: 5px;
+    margin: 20px 0px;
+    outline:none;
+}
+.inputmsg3 input{
+    display: inline-block;
+    width: 48%;
+    height: 45px;
+    border:1px solid #747474;
+    border-radius: 5px;
+    margin: 20px 5px;
+    outline:none;
+}
+/* 模态框样式结束 */
+
+/* 我的收藏样式开始 */
+.ant-tabs-nav .ant-tabs-tab-active {
+    color: #ff6609!important;
+}
+.ant-tabs-nav .ant-tabs-tab:hover {
+    color: #ff6609!important;
+}
+.ant-tabs-ink-bar{
+    background-color: #ff6609!important;
+}
+.fenlei{
+    margin-top: 60px;
+    font-size: 14px;
+    color: #8b8b8b;
+}
+.fenleititle{
+    margin-left: 18px;
+    margin-right: 28px;
+}
+.fenleistyle{
+    margin: 0 10px;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+}
+.fenleistyle:hover{
+    background-color: #fe6b0f;
+    color: #fff;
+}
+
+.shaixuan{
+    margin: 36px 0;
+    font-size: 14px;
+    color: #8b8b8b;
+}
+.shaixuantitle{
+    margin-left: 18px;
+    margin-right: 28px;
+}
+.save-top a{
+    color: #333;
+    font-size: 14px;
+    margin: 20px 15px;
+    display: inline-block;
+}
+.save-btm a{
+    color: #333;
+    font-size: 14px;
+    margin:10px 15px;
+    display: inline-block;
+}
+
+/* 卡片样式 */
+.ant-card-body{
+    padding: 0px!important;
+}
+.sdp{
+    width: 100%;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+.sdp>span{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+.sdp>span:nth-child(1){
+    border-right:1px solid #eaeaea;
+    margin: 5px 0;
+}
+.sdiv{
+    display: flex;
+}
+.sdiv>li{
+    flex: 1;
+    padding: 3px;
+    text-align: center;
+    border: 1px solid #b2b2b2;
+    background-color: #f0f0f0;
+}
+.sdiv>li>a{
+    color: #9c9c9c;
+}
+.shop-all{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop-details{
+    /* flex: 33.33%; */
+    margin: 20px;
+}
+.ant-card-meta-title {
+    font-size: 15px!important;
+    white-space: normal!important;
+}
+.ant-card .ant-card-bordered .ant-card-hoverable{
+    height: auto!important;
+}
+/* 我的收藏样式结束 */
+
+/* 现金账户样式开始 */
+.cash-account{
+    height: 680px;
+}
+.cacart{
+    overflow: hidden;
+    margin-top: 80px;
+    margin-left: 58px;
+    display: flex;
+    line-height: 50px;
+
+}
+.catopleft{
+   flex: 1;
+}
+.catopleft>h3{
+    font-size: 16px;
+}
+.catopleft>a{
+    font-weight: 500;
+    color: #000;
+    margin-right: 70px;
+}
+.catopleft>a:nth-child(3){
+    color: #9e9e9e;
+    font-size: 14px;
+}
+.catopright{
+    flex: 1;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.catopright>li{
+    font-weight: 900;
+    line-height: 27px;
+
+}
+.cardtab{
+    margin-left: 28px;
+    margin-right: 10px;
+    margin-top: 68px;
+}
+.ant-tabs-tab:nth-of-type(2){
+    border-right: 1px solid #8b8b8b;
+    border-left: 1px solid #8b8b8b;
+    padding: 0 20px!important;
+}
+.recodertab .ant-table-thead tr th{
+    text-align: center;
+}
+.recodertab .ant-table-tbody tr td{
+    text-align: center;
+}
+/* 现金账户样式结束 */
+
+/* 个人信息样式开始 */
+.self-info{
+    width: 928px;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #fff;
+}
+.touxiang{
+    flex: 1;
+    text-align: center;
+    margin-top: 140px;
+}
+.touxiang>img{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+.touxiang>p{
+    margin-top: 23px;
+    font-size: 16px;
+    text-align: center;
+}
+.self-setup{
+    flex: 1;
+    margin-top: 74px;
+}
+.baseinfo>h3{
+    display: flex;
+    font-weight: 900;
+
+    justify-content: space-between;
+    line-height: 50px;
+}
+.baseinfo>h3>span{
+    color: #5c5c5c;
+    font-size: 16px;
+
+}
+.span1{
+    font-size: 16px!important;
+    color: #979797!important;
+}
+.baseinfo p{
+    font-size: 16px;
+    color: #979797;
+    line-height: 50px;
+}
+.advance>h3{
+    font-weight: 900;
+    font-size: 16px;
+    color: #5c5c5c;
+    line-height: 50px;
+}
+.cardy,p{
+    line-height: 50px;
+    font-size: 16px;
+    color: #979797;
+}
+.btna{
+    width: 45px;
+    height: 27px;
+    border: none!important;
+    color:blue;
+    margin: 20px;
+}
+
+
+/* 个人信息样式结束 */
+
+
+/* 修改密码样式开始 */
+.editpwd{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 40px;
+    margin-left: 329px;
+    background-color: #fff;
+    padding-left: 140px;
+}
+.editpwd>h2{
+    font-size: 20px;
+    color:#000;
+    font-weight: 900;
+}
+.editpwd-div1{
+    margin: 25px;
+}
+.editpwd-input1{
+    margin: 25px;
+    margin-left: 65px!important;
+}
+.editpwd input{
+    margin-left: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    outline: none;
+}
+::placeholder{
+    font-size: 12px;
+}
+.editpwd-box1{
+    width: 300px;
+    display: flex;
+}
+.editpwd-box1>h5{
+    flex:20%;
+}
+.editpwd-box1>div{
+    flex: 30%;
+}
+.editpwd-btn1{
+    background-color: transparent;
+    margin: 10px;
+    margin-left: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    outline: none;
+}
+.editpwd-btn2{
+    background-color: transparent;
+    margin: 10px;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.editpwd-btn1:hover{
+    background-color:blue;
+    color:#fff;
+    transition: all .3s;
+    cursor:pointer;
+
+}
+.editpwd-btn2:hover{
+    background-color:red;
+    color:#fff;
+    transition: all .3s;
+    cursor:pointer;
+
+}
+/* 修改密码样式结束 */
